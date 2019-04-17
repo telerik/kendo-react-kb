@@ -8,6 +8,7 @@ position:
 tags: grid, kendoreact, dates, format
 ticketid: 1402874
 res_type: kb
+category: knowledge-base
 ---
 
 ## Environment
