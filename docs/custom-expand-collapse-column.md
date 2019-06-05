@@ -29,10 +29,10 @@ If the ultimate goal is to modify the expand collapse column, this can currently
 
 Create a custom column bound to the expanded field and show the icons conditionally:
 
-https://www.telerik.com/kendo-react-ui/components/grid/api/GridColumnProps/#toc-cell
+[cell prop](https://www.telerik.com/kendo-react-ui/components/grid/api/GridColumnProps/#toc-cell)
 
-https://www.telerik.com/kendo-react-ui/components/grid/api/GridColumnProps/#toc-headercell
+[headerCell props](https://www.telerik.com/kendo-react-ui/components/grid/api/GridColumnProps/#toc-headercell)
 
 Please check the following example demonstrating this:
 
-https://stackblitz.com/edit/react-abh1id-pwtfuf?file=app/main.jsx
+[Demo](https://stackblitz.com/edit/react-abh1id-pwtfuf?file=app/main.jsx)
