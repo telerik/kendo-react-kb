@@ -4,7 +4,7 @@ description: How to format ISO string dates.
 type: how-to
 page_title: Grid Date Format | KendoReact Grid
 slug: grid-date-format
-position: 
+position:
 tags: grid, kendoreact, dates, format
 ticketid: 1402874
 res_type: kb
@@ -13,14 +13,16 @@ category: knowledge-base
 
 ## Environment
 <table>
-	<tr>
-		<td>Product Version</td>
-		<td>2.9.1</td>
-	</tr>
-	<tr>
-		<td>Product</td>
-		<td>Progress® KendoReact</td>
-	</tr>
+	<tbody>
+		<tr>
+			<td>Product Version</td>
+			<td>2.9.1</td>
+		</tr>
+		<tr>
+			<td>Product</td>
+			<td>Progress® KendoReact</td>
+		</tr>
+	</tbody>
 </table>
 
 
