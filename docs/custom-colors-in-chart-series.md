@@ -28,6 +28,6 @@ category: knowledge-base
 ## Solution
 This can be done using the color or the colorField props of the ChartSeriesItem:
 
-https://www.telerik.com/kendo-react-ui/components/charts/api/ChartNavigatorSeriesItemProps/#toc-color
+[color prop](https://www.telerik.com/kendo-react-ui/components/charts/api/ChartNavigatorSeriesItemProps/#toc-color)
 
-https://www.telerik.com/kendo-react-ui/components/charts/api/ChartNavigatorSeriesItemProps/#toc-colorfield
+[colorField prop](https://www.telerik.com/kendo-react-ui/components/charts/api/ChartNavigatorSeriesItemProps/#toc-colorfield)
