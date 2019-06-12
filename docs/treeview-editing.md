@@ -28,5 +28,5 @@ How to edit the TreeView nodes.
 This can be achieved, by using the [itemRender](https://www.telerik.com/kendo-react-ui/components/treeview/api/TreeViewProps/#toc-itemrender) to render an input bound to the node value on click.
 
 {% meta id:index height:760 %}
-{% embed_file treeview-search/main.jsx preview %}
+{% embed_file treeview/treeview-editing/main.jsx preview %}
 {% endmeta %}

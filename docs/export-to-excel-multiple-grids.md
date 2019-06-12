@@ -29,6 +29,6 @@ This can be achieved, by setting the second Grid sheet as a second sheet of the 
 
 
 {% meta id:index height:760 %}
-{% embed_file multiple-grid-export-excel/main.jsx preview %}
+{% embed_file grid/multiple-grid-export-excel/main.jsx preview %}
 {% embed_file common/products.json preview %}
 {% endmeta %}

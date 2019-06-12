@@ -28,5 +28,5 @@ How to search in TreeView.
 This can be achieved, by having an external input and based on that input value, to filter the data of the TreeView.
 
 {% meta id:index height:760 %}
-{% embed_file treeview-search/main.jsx preview %}
+{% embed_file treeview/treeview-search/main.jsx preview %}
 {% endmeta %}
