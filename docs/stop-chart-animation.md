@@ -31,5 +31,4 @@ Can I stop the Chats animation?
 We update the data dynamically and the user experience with the animations is not good.
 
 ## Solution
-The animation can be disabled using the [transitions](
-https://www.telerik.com/kendo-react-ui/components/charts/api/ChartProps/#toc-transitions) property of the Chart.
+The animation can be disabled using the [transitions](https://www.telerik.com/kendo-react-ui/components/charts/api/ChartProps/#toc-transitions) property of the Chart.
