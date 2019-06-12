@@ -38,4 +38,5 @@ Please check an example demonstrating how this can be achieved:
 {% meta id:index height:760 %}
 {% embed_file grid/grid-filter-checkbox/main.jsx preview %}
 {% embed_file grid/grid-filter-checkbox/customColumnMenu.jsx %}
+{% embed_file common/products.json %}
 {% endmeta %}
