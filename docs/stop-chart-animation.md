@@ -8,6 +8,7 @@ position:
 tags: kendoreact, chart, animation
 ticketid: 1410594
 res_type: kb
+category: knowledge-base
 ---
 
 ## Environment

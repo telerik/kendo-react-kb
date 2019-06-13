@@ -8,6 +8,7 @@ position:
 tags: grid, groupheader, cell, render
 ticketid: 1410259
 res_type: kb
+category: knowledge-base
 ---
 
 ## Environment

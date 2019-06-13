@@ -8,6 +8,7 @@ position:
 tags: kendoreact, grid, filter, checkbox
 ticketid: 1410595
 res_type: kb
+category: knowledge-base
 ---
 
 ## Environment
