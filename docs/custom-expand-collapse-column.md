@@ -8,6 +8,7 @@ position:
 tags:
 ticketid: 1410508
 res_type: kb
+category: knowledge-base
 ---
 
 ## Environment
