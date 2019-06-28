@@ -36,6 +36,6 @@ This requires to keep the selected items by their ids inside the state.
 The following example demonstrates how to achieve this.
 
 {% meta id:index height:760 %}
-{% embed_file checkbox-selection-server-side/main.jsx preview %}
-{% embed_file checkbox-selection-server-side/products-loader.jsx %}
+{% embed_file grid/checkbox-selection-server-side/main.jsx preview %}
+{% embed_file grid/checkbox-selection-server-side/products-loader.jsx %}
 {% endmeta %}
