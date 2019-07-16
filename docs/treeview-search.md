@@ -1,17 +1,17 @@
 ---
-title: TreeView Search
-description: How to search in TreeView.
+title: Enable Search through the TreeView Data
+description: An example on how to enable the search through the data of the KendoReact TreeView.
 type: how-to
-page_title: TreeView Search | KendoReact TreeView
+page_title: Enable the Search through the TreeView Data | KendoReact TreeView
 slug: treeview-search
-position:
-tags:
+tags: treeview, kendoreact, search, data
 ticketid: 1408162
 res_type: kb
 category: knowledge-base
 ---
 
 ## Environment
+
 <table>
     <tbody>
 	    <tr>
@@ -23,10 +23,12 @@ category: knowledge-base
 
 
 ## Description
-How to search in TreeView.
+
+How can I enable the search through the data of the KendoReact TreeView?
 
 ## Solution
-This can be achieved, by having an external input and based on that input value, to filter the data of the TreeView.
+
+You need to have an external input and based on that input value, you can then filter the data of the TreeView.
 
 {% meta id:index height:760 %}
 {% embed_file treeview/treeview-search/main.jsx preview %}

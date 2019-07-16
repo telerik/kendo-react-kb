@@ -1,10 +1,9 @@
 ---
-title: Custom Colors in Chart Series
-description: How to set custom colors in Chart ceries
+title: Set Custom Colors in Chart Series
+description: An example on how to set custom colors in the KendoReact Chart series.
 type: how-to
-page_title: Custom Colors in Chart Series | KendoReact Chart
+page_title: Set Custom Colors in Chart Series | KendoReact Chart
 slug: custom-colors-in-chart-series
-position:
 tags: chart, kendoreact, dates, format
 ticketid: 1410298
 res_type: kb
@@ -12,6 +11,7 @@ category: knowledge-base
 ---
 
 ## Environment
+
 <table>
 	<tbody>
 		<tr>
@@ -23,11 +23,9 @@ category: knowledge-base
 
 
 ## Description
- How to use the API for things like using customized assigned colors for the series plot of a chart such as a donut series chart.
+
+How can I use the API for implementations such as using assigned customized colors for the series plot of a Donut Chart?
 
 ## Solution
-This can be done using the color or the colorField props of the ChartSeriesItem:
 
-[color prop](https://www.telerik.com/kendo-react-ui/components/charts/api/ChartNavigatorSeriesItemProps/#toc-color)
-
-[colorField prop](https://www.telerik.com/kendo-react-ui/components/charts/api/ChartNavigatorSeriesItemProps/#toc-colorfield)
+Use the [`color`](https://www.telerik.com/kendo-react-ui/components/charts/api/ChartNavigatorSeriesItemProps/#toc-color) or the [`colorField`](https://www.telerik.com/kendo-react-ui/components/charts/api/ChartNavigatorSeriesItemProps/#toc-colorfield) props of the `ChartSeriesItem`.

@@ -1,17 +1,17 @@
 ---
-title: Custom Expand/Collapse Column
-description: How to create custom expand collapse column
+title: Implement Custom Expand/Collapse Columns
+description: An example on how to create a custom expand/collapse column in the KendoReact Grid.
 type: how-to
-page_title: Custom Expand/Collapse Column | KendoReact
+page_title: Change or Hide Columns by Implementing an Expand/Collapse Column | KendoReact Grid
 slug: howto_custom_expand_collapse_column
-position:
-tags:
+tags: expand, collapse, column, kendoreact, grid
 ticketid: 1410508
 res_type: kb
 category: knowledge-base
 ---
 
 ## Environment
+
 <table>
     <tbody>
 	    <tr>
@@ -23,17 +23,18 @@ category: knowledge-base
 
 
 ## Description
-I would like to have control over the expand collapse column to change or hide the columns.
+
+How can I have control over the expand/collapse column of the KendoReact Grid and be able to change or hide the Grid columns?
 
 ## Solution
-If the ultimate goal is to modify the expand collapse column, this can currently be achieved with a custom column.
 
-Create a custom column bound to the expanded field and show the icons conditionally:
+To modify the expand/collapse column of the Grid:
 
-[cell prop](https://www.telerik.com/kendo-react-ui/components/grid/api/GridColumnProps/#toc-cell)
+1. Create a custom column that is bound to the expanded field.
+1. Show the icons conditionally.
 
-[headerCell props](https://www.telerik.com/kendo-react-ui/components/grid/api/GridColumnProps/#toc-headercell)
+For more information, refer to the following props:
+* [`cell`](https://www.telerik.com/kendo-react-ui/components/grid/api/GridColumnProps/#toc-cell)
+* [`headerCell`](https://www.telerik.com/kendo-react-ui/components/grid/api/GridColumnProps/#toc-headercell)
 
-Please check the following example demonstrating this:
-
-[Demo](https://stackblitz.com/edit/react-abh1id-pwtfuf?file=app/main.jsx)
+For the full implementation of the suggested approach, refer to the [demo on creating a custom expand/collapse column in the KendoReact Grid](https://stackblitz.com/edit/react-abh1id-pwtfuf?file=app/main.jsx).

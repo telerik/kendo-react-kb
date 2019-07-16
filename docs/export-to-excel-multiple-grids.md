@@ -1,17 +1,17 @@
 ---
-title: Export to Excel Multiple Grids
-description: How to export multiple Grid to a single Excel file.
+title: Export Multiple Grids to Excel
+description: An example on how to export multiple KendoReact Grids to a single Excel file.
 type: how-to
-page_title: Export to Excel Multiple Grids | KendoReact Grid
+page_title: Export Multiple Grids to Excel | KendoReact Grid
 slug: export-to-excel-multiple-grids
-position:
-tags:
+tags: kendoreact, export, multiple, grids, excel
 ticketid: 1408161
 res_type: kb
 category: knowledge-base
 ---
 
 ## Environment
+
 <table>
     <tbody>
 	    <tr>
@@ -23,11 +23,12 @@ category: knowledge-base
 
 
 ## Description
-I am trying to export multiple tables on one click action.
+
+How can I export multiple KendoReact Grids (tables) upon a single click action?
 
 ## Solution
-This can be achieved, by setting the second Grid sheet as a second sheet of the first document and only exporting the first one.
 
+Set the second Grid sheet as the second sheet of the first document and export only the first Grid.
 
 {% meta id:index height:760 %}
 {% embed_file grid/multiple-grid-export-excel/main.jsx preview %}
