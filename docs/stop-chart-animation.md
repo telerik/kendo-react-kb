@@ -32,4 +32,4 @@ I update the data of the KendoReact Chart dynamically and the user experience wi
 
 ## Solution
 
-Use the [`transitions`](https://www.telerik.com/kendo-react-ui/components/charts/api/ChartProps/#toc-transitions) property of the Chart.
+Use the [`transitions`]({% slug api_charts_chartprops %}#toc-transitions) property of the Chart.

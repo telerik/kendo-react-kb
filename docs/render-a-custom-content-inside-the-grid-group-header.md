@@ -32,7 +32,7 @@ I want to implement a customized `IconCell` that renders an icon and when I grou
 
 ## Solution
 
-1. Use the [`cellRender`](https://www.telerik.com/kendo-react-ui/components/grid/api/GridProps/#toc-cellrender) prop.
+1. Use the [`cellRender`]({% slug api_grid_gridprops %}#toc-cellrender) prop.
 1. Return a modified `td` element with the desired icon or other custom elements for the specific header.
 
 The following example demonstrates how to modify the `groupHeader` of the Grid.

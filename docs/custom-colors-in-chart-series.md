@@ -28,4 +28,4 @@ How can I use the API for implementations such as using assigned customized colo
 
 ## Solution
 
-Use the [`color`](https://www.telerik.com/kendo-react-ui/components/charts/api/ChartNavigatorSeriesItemProps/#toc-color) or the [`colorField`](https://www.telerik.com/kendo-react-ui/components/charts/api/ChartNavigatorSeriesItemProps/#toc-colorfield) props of the `ChartSeriesItem`.
+Use the [`color`]({% slug api_charts_chartnavigatorseriesitemprops %}#toc-color) or the [`colorField`]({% slug api_charts_chartnavigatorseriesitemprops %}#toc-colorfield) props of the `ChartSeriesItem`.

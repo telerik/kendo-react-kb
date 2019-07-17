@@ -34,7 +34,7 @@ To modify the expand/collapse column of the Grid:
 1. Show the icons conditionally.
 
 For more information, refer to the following props:
-* [`cell`](https://www.telerik.com/kendo-react-ui/components/grid/api/GridColumnProps/#toc-cell)
-* [`headerCell`](https://www.telerik.com/kendo-react-ui/components/grid/api/GridColumnProps/#toc-headercell)
+* [`cell`]({% slug api_grid_gridcolumnprops %}#toc-cell)
+* [`headerCell`]({% slug api_grid_gridcolumnprops %}#toc-headercell)
 
 For the full implementation of the suggested approach, refer to the [demo on creating a custom expand/collapse column in the KendoReact Grid](https://stackblitz.com/edit/react-abh1id-pwtfuf?file=app/main.jsx).
