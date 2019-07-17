@@ -1,10 +1,9 @@
 ---
 title: Filter the Grid with Checkboxes
-description: How to Filter the Grid with Checkboxes
+description: An example on how to filter the KendoReact Grid by using checkboxes.
 type: how-to
-page_title: Filter the Grid with Checkboxes | KendoReact Grid
+page_title: Filter the Grid by Using Checkboxes | KendoReact Grid
 slug: filter-the-grid-with-checkboxes
-position:
 tags: kendoreact, grid, filter, checkbox
 ticketid: 1410595
 res_type: kb
@@ -12,6 +11,7 @@ category: knowledge-base
 ---
 
 ## Environment
+
 <table>
     <tbody>
 	    <tr>
@@ -27,14 +27,12 @@ category: knowledge-base
 
 
 ## Description
-Is it possible to filter the Grid data with checkboxes?
 
-I saw this is the jQuery version of the Grid. Is it support for React as well?
+How can I filter the KendoReact Grid data with checkboxes similar to the Kendo UI for jQuery Grid?
 
 ## Solution
-In the KendoReact Grid this has to be achieved programmatically using the [ColumnMenu](https://www.telerik.com/kendo-react-ui/components/grid/columns/column-menu/) component.
 
-Please check an example demonstrating how this can be achieved:
+In KendoReact, you can programmatically implement the data filtering with checkboxes for the Grid by using the [ColumnMenu]({% slug column_menu_grid %}) component.
 
 {% meta id:index height:760 %}
 {% embed_file grid/grid-filter-checkbox/main.jsx preview %}

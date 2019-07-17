@@ -1,10 +1,9 @@
 ---
-title: Retain Checkbox Selection With Server Paging
-description: How to retain checkbox selection with server paging
+title: Retain Checkbox Selection with Server Paging
+description: An example on how to retain checkbox selection in the KendoReact Grid with server paging.  
 type: how-to
-page_title: Retain Checkbox Selection With Server Paging | KendoReact Grid
+page_title: Retain Checkbox Selection with Server Paging | KendoReact Grid
 slug:  how-to-retain-checkbox-selection-with-server-paging
-position:
 tags: grid, checkbox, selection, sever-paging
 ticketid: 1413958
 res_type: kb
@@ -12,6 +11,7 @@ category: knowledge-base
 ---
 
 ## Environment
+
 <table>
     <tbody>
 	    <tr>
@@ -27,13 +27,12 @@ category: knowledge-base
 
 
 ## Description
-Retain selection of checkbox when we navigate across different page.
-In my case, my data is coming from API. I have configured server-side paging and sorting.
+
+How can I retain the selection of checkbox in the KendoReact Grid when I navigate across different pages when the data comes from API server-side paging and sorting are configured?
 
 ## Solution
-This requires to keep the selected items by their ids inside the state.
 
-The following example demonstrates how to achieve this.
+Keep the selected items by their ids inside the state.
 
 {% meta id:index height:760 %}
 {% embed_file grid/checkbox-selection-server-side/main.jsx preview %}

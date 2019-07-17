@@ -1,10 +1,9 @@
 ---
-title: Pass Additional Props to Custom Cell
-description: How to Pass Additional Props to Custom Cell
+title: Pass Additional Props to Custom Grid Cells
+description: An example on how to pass additional props to a custom cell in the KendoReact Grid.
 type: how-to
-page_title: Pass Additional Props to Custom Cell | KendoReact Grid
+page_title: Pass Additional Props to Custom Cells | KendoReact Grid
 slug: pass-additional-props-to-custom-cell
-position:
 tags: kendoreact, grid, cell, props
 ticketid: 1411991
 res_type: kb
@@ -12,6 +11,7 @@ category: knowledge-base
 ---
 
 ## Environment
+
 <table>
     <tbody>
 	    <tr>
@@ -27,9 +27,9 @@ category: knowledge-base
 
 
 ## Description
-How to Pass Additional Props to Custom Cell of the Grid. I want to pass my prop to the cell that will be rendered.
+
+How can I pass additional props to a custom cell of the KendoReact Grid so that I can to pass a custom prop to the cell that will be rendered?
 
 ## Solution
-This can be achieved using a function that will return the cell, with the default props and the custom ones.
 
-This can be seen in the following [demo](https://www.telerik.com/kendo-react-ui/components/grid/cells/#toc-cell-customization)
+Use a function that will return the cell with the default and the custom props. For the full implementation of the suggested approach, refer to the [demo on customizing Grid cells]({% slug cells_grid %}#toc-cell-customization).

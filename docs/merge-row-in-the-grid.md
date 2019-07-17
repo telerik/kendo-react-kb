@@ -1,10 +1,9 @@
 ---
 title: Merge Rows in the Grid
-description: How to Merge Rows in the Grid
+description: An example on how to merge rows in the KendoReact Grid.
 type: how-to
 page_title: Merge Rows in the Grid | KendoReact Grid
 slug: merge-row-in-the-grid
-position:
 tags: grid, rows, merge
 ticketid: 1414492
 res_type: kb
@@ -12,6 +11,7 @@ category: knowledge-base
 ---
 
 ## Environment
+
 <table>
     <tbody>
 	    <tr>
@@ -27,12 +27,12 @@ category: knowledge-base
 
 
 ## Description
-How to merge rows in React Data Grid?
+
+How can I merge rows in the KendoReact Data Grid?
 
 ## Solution
-This can be achieved using a [cellRender](https://www.telerik.com/kendo-react-ui/components/grid/api/GridProps/#toc-cellrender) and adding rowSpan to the cells that need it:
 
-Please check the following example on how this can be done.
+Use a [`cellRender`]({% slug api_grid_gridprops %}#toc-cellrender) and add `rowSpan` to the cells that need it.
 
 {% meta id:index height:760 %}
 {% embed_file grid/merge-rows/main.jsx preview %}
