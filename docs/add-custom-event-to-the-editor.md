@@ -8,6 +8,7 @@ position:
 tags: editor, event
 ticketid: 1416867
 res_type: kb
+category: knowledge-base
 ---
 
 ## Environment
