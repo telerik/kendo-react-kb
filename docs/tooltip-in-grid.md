@@ -29,6 +29,6 @@ How can I render a KendoReact Tooltip inside a KendoReact Grid?
 Add titles to the cells of the Grid by setting the [`cell`]({% slug api_grid_gridcolumnprops %}#toc-cell) and [`headerCell`]({% slug api_grid_gridcolumnprops %}#toc-headercell) properties.
 
 {% meta height:450 %}
-{% embed_file grid-integration/main.jsx preview %}
+{% embed_file grid/with-tooltip/main.jsx preview %}
 {% embed_file common/products.json preview %}
 {% endmeta %}
