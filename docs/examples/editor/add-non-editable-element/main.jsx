@@ -6,7 +6,6 @@ import {
   EditorUtils,
   ProseMirror
 } from "@progress/kendo-react-editor";
-import { tagNode } from "./new-node";
 import { InsertShortcodeTool } from "./InsertShortcodeTool";
 
 const { Bold, Italic, Underline, ViewHtml } = EditorTools;

@@ -30,14 +30,11 @@ category: knowledge-base
 How to make the table elements inside the Editor resizable?
 
 ## Solution
-There is an already made plugin for table column resizing from ProseMirror:
-
-https://github.com/ProseMirror/prosemirror-tables
+There is an already made plugin for [table column resizing from ProseMirror.](https://github.com/ProseMirror/prosemirror-tables)
 
 We have made an example of KendoReact Editor that uses the columnResizing plugin. The plugin has to be added to the plugins collection on the [onMount]({% slug api_editor_editorprops %}#toc-onmount) event:
 
 ```jsx-no-run
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Editor, EditorTools, ProseMirror } from '@progress/kendo-react-editor';

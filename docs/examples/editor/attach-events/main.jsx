@@ -57,7 +57,7 @@ class App extends React.Component {
             [Bold, Italic, Underline]
           ]}
           contentStyle={{ height: 220 }}
-          defaultContent="<p>blur event example</p>"
+          defaultContent="<p>Context menu event example</p>"
           onMount={this.onMount}
         />
       </div>
