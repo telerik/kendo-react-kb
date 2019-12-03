@@ -32,4 +32,4 @@ How can I change an ISO date string which I have in my KendoReact Grid? Setting 
 
 ## Solution
 
-The KendoReact Grid formats only valid JavaScipt `date` objects. To achieve the desired scenario, parse the ISO strings to JavaScript dates as soon as they are received from the server and work with the parsed data. This approach will also ensure that even if the filtering is done on the client, it will work.
+The KendoReact Grid formats only valid JavaScript `date` objects. To achieve the desired scenario, parse the ISO strings to JavaScript dates as soon as they are received from the server and work with the parsed data. This approach will also ensure that even if the filtering is done on the client, it will work.

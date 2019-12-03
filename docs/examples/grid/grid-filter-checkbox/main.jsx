@@ -9,14 +9,21 @@ import { CustomColumnMenu } from './customColumnMenu';
 
 import products from './products.json';
 
+const createDataState = (dataState) => {
+  return {
+    result: process(products.slice(0), dataState),
+    dataState: dataState
+  };
+}
+
+const dataState = createDataState({
+  take: 8,
+  skip: 0
+});
+
 class App extends React.Component {
   constructor(props) {
     super(props);
-
-    const dataState = this.createDataState({
-      take: 8,
-      skip: 0
-    });
 
     this.state = {
       columns: [{ field: 'ProductName' }, { field: 'ProductID' }],
@@ -24,15 +31,8 @@ class App extends React.Component {
     };
   }
 
-  createDataState(dataState) {
-    return {
-      result: process(products.slice(0), dataState),
-      dataState: dataState
-    };
-  }
-
   dataStateChange = (event) => {
-    this.setState(this.createDataState(event.data));
+    this.setState(createDataState(event.data));
   }
 
   onReset = () => {
@@ -48,7 +48,7 @@ class App extends React.Component {
       }
     })
     this.setState({
-      result: process(filterData, dataState)
+      result: process(filterData, this.state.dataState)
     });
   }
 

@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Grid, GridColumn as Column } from '@progress/kendo-react-grid';
@@ -12,7 +13,7 @@ class App extends React.Component {
 
   cellRender = (cell, props) => {
     if (props.field === "Discontinued") {
-      if (props.dataItem[props.field] === true) {
+      if (props.dataItem.ProductID % 2 !== 0) {
         return (
           <td rowSpan={2}>
             {props.dataItem[props.field].toString()}
@@ -51,4 +52,5 @@ ReactDOM.render(
   <App />,
   document.querySelector('my-app')
 );
+
 

@@ -63,6 +63,9 @@ window.moduleDirectives = (window.moduleDirectives || []).concat(
         }, {
             module: '@progress/kendo-react-upload',
             main: 'dist/cdn/js/kendo-react-upload.js'
+        },{
+            module: '@progress/kendo-react-data-tools',
+            main: 'dist/cdn/js/kendo-react-data-tools.js'
         },
         {
             module: '@progress/kendo-data-query',
