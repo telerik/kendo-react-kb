@@ -10,6 +10,7 @@ import { InsertShortcodeTool } from "./InsertShortcodeTool";
 
 const { Bold, Italic, Underline, ViewHtml } = EditorTools;
 const { Schema, EditorView, EditorState } = ProseMirror;
+
 // This is the node configuration
 const nonEditable = {
   name:"nonEditable",
@@ -44,7 +45,7 @@ class App extends React.Component {
     const { plugins, schema } = viewProps.state;
 
     // Append a new node.
-    let nodes = schema.spec.nodes.addToEnd('nonEditable',nonEditable);
+    let nodes = schema.spec.nodes.addToEnd('nonEditable', nonEditable);
 
     // Create the new schema.
     const mySchema = new Schema({ nodes: nodes, marks: schema.spec.marks });

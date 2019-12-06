@@ -17,17 +17,20 @@ class InsertShortcodeTool extends Component {
   handleChange = event => {
     const { view } = this.props;
     const schema = view.state.schema;
+
     // get the new node from the schema
     const nodeType = schema.nodes.nonEditable;
+
     // create a new node with the selected text
     const node = nodeType.createAndFill(
       { class: "shortcode" },
       schema.text(event.target.value.code)
     );
+
     // Insert the new node
     EditorUtils.insertNode(view, node);
     view.focus();
-  };
+  }
 
   render() {
     const { view } = this.props;

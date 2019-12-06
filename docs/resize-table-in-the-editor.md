@@ -2,7 +2,7 @@
 title: Editor - table resizing
 description: How to resize a table in the Editor
 type: how-to
-page_title: Resize Table in the Editor | KendoReact Ediotor
+page_title: Resize Table in the Editor | KendoReact Editor
 slug: resize-table-in-the-editor
 position:
 tags: editor, table, resize

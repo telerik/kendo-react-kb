@@ -12,6 +12,7 @@ class App extends React.Component {
   state = {
     show: false
   }
+
   onMount = event => {
     return new ProseMirror.EditorView(
       { mount: event.dom }, {
@@ -27,7 +28,7 @@ class App extends React.Component {
   }
 
   onContextMenu = (view, domEvent) => {
-    domEvent.preventDefault()
+    domEvent.preventDefault();
     this.offSet = { left: domEvent.clientX, top: domEvent.clientY };
     this.setState({ show: true });
   }
