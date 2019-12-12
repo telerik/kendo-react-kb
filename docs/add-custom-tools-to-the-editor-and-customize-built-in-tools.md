@@ -62,7 +62,7 @@ How to make a tool that will apply custom font size to the selected content.
 
 ### Solution
 
-This can be achieved with a custom [DropDownList tool]({ slug api_editor_EditorTools_createstyledropdownlist }) that will apply the custom font-size based on array of font-size values.
+This can be achieved with a custom [DropDownList tool]({% slug api_editor_EditorTools_createstyledropdownlist %}) that will apply the custom font-size based on array of font-size values.
 
 {% meta height:420 %}
 {% embed_file editor/custom-font-size-tool/main.jsx preview %}
