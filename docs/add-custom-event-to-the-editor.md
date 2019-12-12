@@ -27,13 +27,13 @@ category: knowledge-base
 
 
 ## Description
-How to attach a custom event like onBlur or onColumnMenu to the EditorView.
+How to attach a DOM event like onBlur or onColumnMenu to the EditorView.
 
 ## Solution
-This can be achieved by programmatically attaching the desired event and the handler to the EditorView. These events can be attached to the [onMount]({% slug api_editor_editorprops %}#toc-onmount) event of the Editor.
+The desired DOM events can be attached to the EditorView object using the [onMount]({% slug api_editor_editorprops %}#toc-onmount) event of the Editor.
 
-This is an example showcasing how to attach the onColumnMenu event:
+This is an example showcasing how to attach the onColumnMenu, onBlur and onClick events:
 
-{% meta id:index height:760 %}
+{% meta height:340 %}
 {% embed_file editor/attach-events/main.jsx preview %}
 {% endmeta %}

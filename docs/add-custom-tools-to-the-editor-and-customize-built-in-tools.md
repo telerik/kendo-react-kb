@@ -27,7 +27,7 @@ category: knowledge-base
 
 # Customization
 
-The following article contains examples for different customizations of the KendoReact Editor. It includes creating different custom tools or customizing existing ones.
+The following article contains examples for different customizations of the KendoReact Editor. It includes creating different custom tools and customizing existing ones.
 
 ## Insert Span With a ClassName
 
@@ -35,23 +35,23 @@ How to make a tool that will insert a span element with a specific class and con
 
 ### Solution
 
-We need to [create](https://prosemirror.net/docs/ref/#model.MarkType.create) a new [Mark](https://prosemirror.net/docs/ref/#model.Mark) and add a attribute class to the mark for the class name. We have control over the class name and the content of the Mark.
+We need to create a tool, that will insert text content and add the built-in style [mark](https://prosemirror.net/docs/ref/#model.Mark) to it. The class attribute will be added when the mark object is created.
 
 This is an example showcasing how to achieve this:
 
-{% meta id:index height:760 %}
+{% meta height:420 %}
 {% embed_file editor/add-span-with-class/main.jsx preview %}
 {% endmeta %}
 
 ## Insert Non Editable Node
 
-How to insert and non editable predefined node in the Editor?
+How to insert non editable predefined node in the Editor?
 
 ### Solution
 
 This can be achieved by creating a tool that will insert a non editable [Node](https://prosemirror.net/docs/ref/#model.Node). This Node will function as a single element and will be removed with a single key press.
 
-{% meta id:index height:760 %}
+{% meta height:420 %}
 {% embed_file editor/add-non-editable-element/main.jsx preview %}
 {% embed_file editor/add-non-editable-element/InsertShortcodeTool.jsx %}
 {% endmeta %}
@@ -64,28 +64,28 @@ How to make a tool that will apply custom font size to the selected content.
 
 This can be achieved with a custom [DropDownList tool]({ slug api_editor_EditorTools_createstyledropdownlist }) that will apply the custom font-size based on array of font-size values.
 
-{% meta id:index height:760 %}
+{% meta height:420 %}
 {% embed_file editor/custom-font-size-tool/main.jsx preview %}
-{% embed_file editor/custom-font-size-tool/myFontSizeTool.jsx %}
+{% embed_file editor/custom-font-size-tool/customFontSize.jsx %}
 {% endmeta %}
 
 ## Background Color Tool
 
-How to create a tool that sets the background color?
+How to create a tool that sets a background color?
 
 ## Font Color Tool
 
-How to create a tool that apply`s the font color?
+How to create a tool that sets a color?
 
 ## Clear Format Tool
 
-How to create a tool that clears the format?
+How to create a tool that clears the inline formatting?
 
 ### Solution
 
 This example show how to add the background color, font color and clear format tools:
 
-{% meta id:index height:760 %}
+{% meta height:420 %}
 {% embed_file editor/custom-tools/main.jsx preview %}
 {% embed_file editor/custom-tools/backgroundColorTool.jsx %}
 {% embed_file editor/custom-tools/clearAll.jsx %}

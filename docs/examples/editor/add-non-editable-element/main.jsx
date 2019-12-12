@@ -6,14 +6,14 @@ import {
   EditorUtils,
   ProseMirror
 } from "@progress/kendo-react-editor";
-import { InsertShortcodeTool } from "./InsertShortcodeTool";
+import { InsertShortcodeTool } from "./InsertShortcodeTool.jsx";
 
 const { Bold, Italic, Underline, ViewHtml } = EditorTools;
 const { Schema, EditorView, EditorState } = ProseMirror;
 
 // This is the node configuration
 const nonEditable = {
-  name:"nonEditable",
+  name: "nonEditable",
   inline: true,
   group: "inline",
   content: "inline+",
@@ -67,7 +67,7 @@ class App extends React.Component {
     return (
       <Editor
         tools={[[Bold, Italic, Underline, ViewHtml, InsertShortcodeTool]]}
-        contentStyle={{ height: 420 }}
+        contentStyle={{ height: 300 }}
         onMount={this.onMount}
       />
     );

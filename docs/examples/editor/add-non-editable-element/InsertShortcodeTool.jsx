@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { EditorUtils } from "@progress/kendo-react-editor";
 import { DropDownList } from "@progress/kendo-react-dropdowns";
 
@@ -13,8 +13,13 @@ const shortcodes = [
   { text: "Phone", code: "{{phone}}", id: 8 }
 ];
 
-class InsertShortcodeTool extends Component {
+const defaultItem = { text: "Insert Shortcode", code: "", id: 0 };
+
+export class InsertShortcodeTool extends React.Component {
   handleChange = event => {
+    if (!event.target.value.code) {
+      return;
+    }
     const { view } = this.props;
     const schema = view.state.schema;
 
@@ -42,7 +47,8 @@ class InsertShortcodeTool extends Component {
         data={shortcodes}
         textField="text"
         dataItemKey="id"
-        defaultItem={{ text: "Insert Shortcode", code: "", id: 0 }}
+        defaultItem={defaultItem}
+        value={defaultItem}
         disabled={!canInsert}
         onChange={this.handleChange}
         style={{ userSelect: "none" }}
@@ -50,5 +56,3 @@ class InsertShortcodeTool extends Component {
     );
   }
 }
-
-export { InsertShortcodeTool };

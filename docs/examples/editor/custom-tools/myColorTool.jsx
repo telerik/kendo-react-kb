@@ -4,11 +4,8 @@ import { EditorUtils } from '@progress/kendo-react-editor';
 import { ColorPicker } from '@progress/kendo-react-inputs';
 
 const BackgroundColorTool = (props) => {
-    const propsRef = React.useRef();
-    propsRef.current = props;
-
     const onChange = (event) => {
-        const { view } = propsRef.current;
+        const { view } = props;
         if (view) {
           EditorUtils.applyInlineStyle(view, { style: 'color', value: event.value });
         }
@@ -16,7 +13,7 @@ const BackgroundColorTool = (props) => {
 
     return (
         <ColorPicker
-          view="gradient"
+          view="palette"
           defaultValue={'black'}
           onChange={onChange}
           onMouseDown={e => e.preventDefault()}

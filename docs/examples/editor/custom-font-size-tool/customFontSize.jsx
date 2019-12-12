@@ -3,7 +3,7 @@ import { EditorTools } from "@progress/kendo-react-editor";
 
 const fontSizeToolSettings = {
   style: "font-size",
-  defaultItem: { text: "*", value: "" },
+  defaultItem: { text: "Unset", value: "" },
   items: [
     { text: "10", value: "10pt" },
     { text: "12", value: "12pt" },
@@ -25,7 +25,6 @@ const CustomFontSize = props => (
       width: "100px",
       fontSize: "10px",
       height: "36px",
-      background: "#fff",
       ...props.style
     }}
   />
