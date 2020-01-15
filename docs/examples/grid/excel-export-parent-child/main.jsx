@@ -1,9 +1,10 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Grid, GridColumn as Column, GridDetailRow, GridToolbar } from '@progress/kendo-react-grid';
 import '@progress/kendo-theme-default';
 import { saveAs } from '@progress/kendo-file-saver';
-import { ExcelExport, Workbook } from '@progress/kendo-react-excel-export';
+import { ExcelExport, KendoOoxml } from '@progress/kendo-react-excel-export';
 
 
 class DetailComponent extends GridDetailRow {
@@ -63,7 +64,7 @@ class App extends React.Component {
           }
         })
           .then(() => {
-            new Workbook(workbook).toDataURL().then((dataUrl) => {
+            new KendoOoxml.Workbook(workbook).toDataURL().then((dataUrl) => {
               saveAs(dataUrl, 'Categories.xlsx');
             });
           })
@@ -88,7 +89,7 @@ class App extends React.Component {
       return;
     }
 
-    fetch(this.baseUrl + `Products?$filter=CategoryID%20eq%20` + categoryID, this.init)
+    fetch(this.baseUrl + `Products?\$filter=CategoryID%20eq%20` + categoryID, this.init)
       .then(response => response.json())
       .then(json => {
         let data = this.state.categories.slice();
