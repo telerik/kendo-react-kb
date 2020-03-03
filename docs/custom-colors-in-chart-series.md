@@ -28,4 +28,8 @@ How can I use the API for implementations such as using assigned customized colo
 
 ## Solution
 
-Use the [`color`]({% slug api_charts_chartnavigatorseriesitemprops %}#toc-color) or the [`colorField`]({% slug api_charts_chartnavigatorseriesitemprops %}#toc-colorfield) props of the `ChartSeriesItem`.
+Use the [`color`]({% slug api_charts_chartseriesitemprops %}#toc-color) or the [`colorField`]({% slug api_charts_chartseriesitemprops %}#toc-colorfield) props of the `ChartSeriesItem`.
+
+{% meta id height:760 %}
+{% embed_file charts/set-colors/main.jsx preview %}
+{% endmeta %}

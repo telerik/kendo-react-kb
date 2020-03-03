@@ -32,6 +32,10 @@ How can I filter the KendoReact Grid data with checkboxes similar to the Kendo U
 
 ## Solution
 
+This is already a built-in option of the Grid and the example can be observed [here.]({% slug column_menu_grid %}#toc-checkbox-filter)
+
+### Older Solution
+
 In KendoReact, you can programmatically implement the data filtering with checkboxes for the Grid by using the [ColumnMenu]({% slug column_menu_grid %}) component.
 
 {% meta id:index height:760 %}
