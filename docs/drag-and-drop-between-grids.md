@@ -28,7 +28,7 @@ category: knowledge-base
 
 ## Description
 
-I need two be able to drag and drop rows from one Grid to another.
+I need to be able to drag and drop rows from one Grid to another.
 
 ## Solution
 
