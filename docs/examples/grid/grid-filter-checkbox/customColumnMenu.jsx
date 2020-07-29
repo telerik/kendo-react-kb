@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   GridColumnMenuSort,
-  GridColumnMenuFilter, GridColumnMenuItemGroup, GridColumnMenuItem, GridColumnMenuItemContent
+  GridColumnMenuItemGroup, GridColumnMenuItem, GridColumnMenuItemContent
 } from '@progress/kendo-react-grid';
 
 export class CustomColumnMenu extends React.Component {
