@@ -68,8 +68,27 @@ window.moduleDirectives = (window.moduleDirectives || []).concat(
             main: 'dist/cdn/js/kendo-react-data-tools.js'
         },
         {
-            module: '@progress/kendo-data-query',
-            main: 'dist/cdn/js/kendo-data-query.js'
+            module: '@progress/kendo-react-scheduler',
+            main: 'dist/cdn/js/kendo-react-scheduler.js'
+        },
+        {
+            module: '@progress/kendo-react-form',
+            main: 'dist/cdn/js/kendo-react-form.js'
+        }, {
+            module: '@progress/kendo-date-math',
+            main: 'dist/cdn/main.js',
+        }, {
+            module: '@progress/kendo-drawing',
+            main: 'dist/cdn/main.js',
+        },
+        {
+            module: '@telerik/kendo-intl',
+            main: 'dist/cdn/main.js',
+        },
+        {
+            module: 'ical.js',
+            main: 'build/ical.js',
         }
+        
     ]
 );

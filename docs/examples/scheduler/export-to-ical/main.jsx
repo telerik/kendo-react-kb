@@ -4,11 +4,9 @@ import {
     Scheduler,
     WeekView,
     SchedulerHeader,
-    SchedulerItem
 } from "@progress/kendo-react-scheduler";
 import { sampleData, displayDate } from "./events-utc.js";
 
-import { filterBy } from "@progress/kendo-data-query";
 
 import ICAL from "ical.js";
 
@@ -30,7 +28,6 @@ const getISOString = (date, toUTC) => {
 
 const App = () => {
     const [data, setData] = React.useState(sampleData);
-    const [searchValue, setSearchValue] = React.useState("");
 
     const customHeader = props => {
         return (
