@@ -28,7 +28,7 @@ category: knowledge-base
 
 ## Description
 
-How can I change an ISO date string which I have in my KendoReact Grid? Setting a `format` property does not affect the current date format.
+How to show a loading indication when loading data.
 
 ## Solution
 
