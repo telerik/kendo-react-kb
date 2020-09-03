@@ -36,5 +36,5 @@ For the column auto width, we can suggest using a package called [calculate-size
 
 {% meta id:index height:760 %}
 {% embed_file grid/auto-width/main.jsx preview %}
-{% embed_file common/products.json %}
+{% embed_file shared/products.json %}
 {% endmeta %}

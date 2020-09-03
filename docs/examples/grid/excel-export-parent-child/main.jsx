@@ -1,8 +1,8 @@
 
-import React from 'react';
-import ReactDOM from 'react-dom';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
 import { Grid, GridColumn as Column, GridDetailRow, GridToolbar } from '@progress/kendo-react-grid';
-import '@progress/kendo-theme-default';
+
 import { saveAs } from '@progress/kendo-file-saver';
 import { ExcelExport, KendoOoxml } from '@progress/kendo-react-excel-export';
 
@@ -139,4 +139,4 @@ class App extends React.Component {
 }
 
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.querySelector('my-app'));

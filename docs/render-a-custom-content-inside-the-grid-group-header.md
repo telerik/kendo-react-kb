@@ -39,5 +39,5 @@ The following example demonstrates how to modify the `groupHeader` of the Grid.
 
 {% meta id:index height:760 %}
 {% embed_file grid/group-header-render/main.jsx preview %}
-{% embed_file common/products.json %}
+{% embed_file shared/products.json %}
 {% endmeta %}

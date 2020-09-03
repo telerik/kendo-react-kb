@@ -1,6 +1,6 @@
 
-import React from 'react';
-import ReactDOM from 'react-dom';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
 import { Grid, GridColumn as Column } from '@progress/kendo-react-grid';
 import { Popup } from '@progress/kendo-react-popup';
 import { Menu, MenuItem } from '@progress/kendo-react-layout';

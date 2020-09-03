@@ -42,7 +42,7 @@ The following example demonstrates how to render a loading indicator once a requ
 
 {% meta id:loading-indicator height:700 %}
 {% embed_file grid/odata-server-operations/main.jsx preview %}
-{% embed_file grid/common/products-loader.jsx %}
+{% embed_file shared/products-loader.jsx %}
 {% endmeta %}
 
 #### Setup

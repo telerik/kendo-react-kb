@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
 
 import { Notification, NotificationGroup } from '@progress/kendo-react-notification'
 import { Fade } from '@progress/kendo-react-animation'
