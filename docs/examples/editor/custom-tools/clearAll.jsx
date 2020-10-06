@@ -1,5 +1,5 @@
 
-import React from 'react';
+import * as React from 'react';
 import { Button } from '@progress/kendo-react-buttons';
 
 const removeAllMarks = ({ except = [] } = {}) => (state, dispatch) => {

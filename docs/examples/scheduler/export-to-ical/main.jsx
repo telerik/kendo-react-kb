@@ -1,5 +1,5 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import * as React from "react";
+import * as ReactDOM from "react-dom";
 import {
     Scheduler,
     WeekView,
@@ -33,7 +33,7 @@ const App = () => {
         return (
             <SchedulerHeader>
                 <button className='k-button' onClick={exportToIcal}>Export to iCal</button>
-                {...props.children}
+                {props.children}
             </SchedulerHeader>
         );
     };

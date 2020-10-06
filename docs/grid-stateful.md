@@ -38,13 +38,6 @@ How to make a stateful and reusable Grid?
 
 You can configure a stateful KendoReact Data Grid to perform paging, sorting, filtering, grouping, and editing, and also reuse it in multiple applications and pages by setting its columns and desired data operations.
 
-{% meta id:editing height:590 %}
-{% embed_file stateful-grid/main.jsx preview %}
-{% embed_file common/products.json %}
-{% embed_file stateful-grid/my-command-cell.jsx %}
-{% embed_file stateful-grid/with-state.jsx %}
-{% endmeta %}
-
 #### Data Operations
 
 The stateful Grid performs its data operations by using the `process` method of the [`DataQuery`]({% slug overview_dataquery %}) library. To apply the changes and to save the current state of the grid data when a data operation is performed, handle the [`onDataStateChange`]({% slug api_grid_gridprops %}#toc-ondatachange) event.
@@ -111,5 +104,5 @@ The following example demonstrates how to create a [higher-order component (HOC)
 {% meta id:stateful height:700 %}
 {% embed_file grid/stateful/main.jsx preview %}
 {% embed_file grid/stateful/with-state.jsx %}
-{% embed_file common/products.json %}
+{% embed_file shared/products.json %}
 {% endmeta %}

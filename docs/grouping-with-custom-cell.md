@@ -36,5 +36,5 @@ In this case, the issue occurs because when the `rowType` is `groupHeader` the c
 
 {% meta id:index height:760 %}
 {% embed_file grid/grouping-with-custom-cell/main.jsx preview %}
-{% embed_file common/products.json %}
+{% embed_file shared/products.json %}
 {% endmeta %}

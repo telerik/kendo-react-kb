@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import ReactDOM from "react-dom";
+import * as React from "react";
+import * as ReactDOM from "react-dom";
 import {
     Scheduler,
     WeekView,
@@ -29,7 +29,7 @@ const App = () => {
         };
         setData([newEvent, ...data]);
     };
-    useEffect(() => {
+    React.useEffect(() => {
         let schedulerElement = MyScheduler.current.element;
         schedulerElement.addEventListener("drop", handleDropItem);
         schedulerElement.addEventListener("dragover", e => e.preventDefault());

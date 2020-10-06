@@ -1,7 +1,7 @@
 
-import React from './node_modules/react';
-import ReactDOM from './node_modules/react-dom';
-import { Grid, GridColumn } from './node_modules/@progress/kendo-react-grid';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import { Grid, GridColumn } from '@progress/kendo-react-grid';
 
 const loadingPanel = (
   <div className="k-loading-mask">

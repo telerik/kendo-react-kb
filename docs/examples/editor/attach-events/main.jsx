@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
 
 import { Editor, EditorTools, ProseMirror } from '@progress/kendo-react-editor';
 import { Menu, MenuItem } from '@progress/kendo-react-layout';

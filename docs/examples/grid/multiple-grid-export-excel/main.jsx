@@ -1,6 +1,6 @@
 
-import React from 'react';
-import ReactDOM from 'react-dom';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
 import { Grid, GridColumn, GridToolbar } from '@progress/kendo-react-grid';
 import { ExcelExport } from '@progress/kendo-react-excel-export';
 
