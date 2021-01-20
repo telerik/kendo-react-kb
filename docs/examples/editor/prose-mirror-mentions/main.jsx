@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import { Editor, ProseMirror, EditorUtils } from '../src/main';
+import { Editor, ProseMirror, EditorUtils } from '@progress/kendo-react-editor';
 import { addMentionNodes, addTagNodes, getMentionsPlugin } from 'prosemirror-mentions';
 
 const { Schema, EditorView, EditorState } = ProseMirror;
