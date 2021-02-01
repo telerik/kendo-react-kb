@@ -9,7 +9,7 @@ const { Schema, EditorView, EditorState } = ProseMirror;
 import '@progress/kendo-theme-default/dist/all.css';
 
 const mentionsData = [
-    
+
     { name: 'Anna Brown', id: '103', email: 'anna@gmail.com' },
     { name: 'John Doe', id: '101', email: 'joe@gmail.com' },
     { name: 'Joe Lewis', id: '102', email: 'lewis@gmail.com' }
@@ -18,7 +18,7 @@ const mentionsData = [
 const tagsData = [
     { tag: 'WikiLeaks' },
     { tag: 'NetNeutrality' },
-    { tag: 'KendoReact'}
+    { tag: 'KendoReact' }
 ];
 
 /**
@@ -121,5 +121,6 @@ export const styles =
 
 ReactDOM.render(
     <App />,
-    document.getElementById('app')
+    document.querySelector('my-app')
 );
+
