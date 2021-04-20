@@ -16,7 +16,7 @@ class App extends React.Component {
     dataStateChange = (e) => {
         this.setState({
             ...this.state,
-            dataState: e.data
+            dataState: e.dataState
         });
     }
 
