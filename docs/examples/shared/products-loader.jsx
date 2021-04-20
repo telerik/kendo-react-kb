@@ -21,7 +21,7 @@ export class ProductsLoader extends React.Component {
                 this.lastSuccess = this.pending;
                 this.pending = '';
                 if (toODataString(this.props.dataState) === this.lastSuccess) {
-                    this.props.onDataRecieved.call(undefined, {
+                    this.props.onDataReceived.call(undefined, {
                         data: json.value,
                         total: json['@odata.count']
                     });

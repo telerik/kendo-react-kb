@@ -16,7 +16,7 @@ category: knowledge-base
 	<tbody>
 		<tr>
 			<td>Product Version</td>
-			<td>2.9.1</td>
+			<td>4.5.0</td>
 		</tr>
 		<tr>
 			<td>Product</td>
@@ -53,10 +53,10 @@ The following example demonstrates how to render a loading indicator once a requ
         <Grid ...gridOptions></Grid>
         <ProductsLoader
             dataState={this.state.dataState}
-            onDataRecieved={this.dataRecieved}
+            onDataReceived={this.dataReceived}
         />
 
-        dataRecieved = (products) => {
+        dataReceived = (products) => {
             this.setState({
                 ...this.state,
                 products: products
@@ -74,7 +74,7 @@ The following example demonstrates how to render a loading indicator once a requ
                 this.lastSuccess = this.pending;
                 this.pending = '';
                 if (toODataString(this.props.dataState) === this.lastSuccess) {
-                    this.props.onDataRecieved.call(undefined, {
+                    this.props.onDataReceived.call(undefined, {
                         data: json.value,
                         total: json['@odata.count']
                     });
