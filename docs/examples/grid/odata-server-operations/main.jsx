@@ -20,7 +20,7 @@ class App extends React.Component {
         });
     }
 
-    dataRecieved = (products) => {
+    dataReceived = (products) => {
         this.setState({
             ...this.state,
             products: products
@@ -46,7 +46,7 @@ class App extends React.Component {
 
                 <ProductsLoader
                     dataState={this.state.dataState}
-                    onDataRecieved={this.dataRecieved}
+                    onDataReceived={this.dataReceived}
                 />
             </div>
         );
