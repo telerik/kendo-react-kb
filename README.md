@@ -1,5 +1,3 @@
-[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
-
 <a href="https://www.telerik.com/kendo-react-ui/" target="_blank">
 <img width="631" src="https://www.telerik.com/kendo-react-ui/npm-banner.svg">
 </a>
