@@ -4,7 +4,7 @@ description: An example on how to use the AutoComplete component in the ColumnMe
 type: how-to
 page_title: Use AutoComplete in the ColumnMenuFilter of the Grid | KendoReact Grid
 slug: grid-autocomplete-gridcolumnmenufilter
-tags: gird, kendoreact, filter, columnmenu, autocomplete, columnmenufilter
+tags: grid, kendoreact, filter, columnmenu, autocomplete, columnmenufilter
 ticketid: 1516740
 res_type: kb
 category: knowledge-base
