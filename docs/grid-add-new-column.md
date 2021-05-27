@@ -1,6 +1,6 @@
 ---
 title: How to Add New Columns to the Grid
-description: An example on how to add new Columns to the KendoReact Grid.
+description: An example of how to add new Columns to the KendoReact Grid.
 type: how-to
 page_title: How to Add New Columns to the Grid | KendoReact Grid
 slug: grid-add-new-column
@@ -34,7 +34,7 @@ How can I dynamically add new columns to the grid?
 
 This can be achieved with logic similar to the one in [`this demo`]({% slug editing_grid %}#toc-getting-started) of our documentation which showcases how to dynamically add new records (rows).
 
-The idea here is to have a button that opens up a Form, which when submitted updates the database that contains all records and adds a new element to all objects in the data. The columns should be rendered dynamically by mapping through the database, which will allow the Grid to visualize any changes made in the databse.
+The idea here is to have a button that opens up a Form, which when submitted updates the database that contains all records and adds a new element to all objects in the data. The columns should be rendered dynamically by mapping through the database, which will allow the Grid to visualize any changes made in the database.
 
 
 {% meta id height:760 %}
