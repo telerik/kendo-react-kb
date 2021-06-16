@@ -6,7 +6,7 @@ import { addMentionNodes, addTagNodes, getMentionsPlugin } from 'prosemirror-men
 
 const { Schema, EditorView, EditorState } = ProseMirror;
 
-import '@progress/kendo-theme-default/dist/all.css';
+import './style.css';
 
 const mentionsData = [
 
@@ -72,9 +72,6 @@ const App = () => {
             marks
         });
 
-        const document = event.dom.ownerDocument;
-        document.querySelector('style').appendChild(document.createTextNode(styles));
-
         const doc = EditorUtils.createDocument(mySchema, '');
 
         plugins.unshift(mentionPlugin);
@@ -95,32 +92,7 @@ const App = () => {
     );
 };
 
-export const styles =
-    `.suggestion-item-list {
-        margin: 15px;
-        border: solid 1px #dce3e5;
-        box-sizing: border-box;
-        padding: 16px;
-        border-radius: 2px;
-        margin-bottom: 2em;
-        box-shadow: inset 0px 1px 8px -3px #ABABAB;
-        background: #fefefe;
-        cursor: text;
-        text-align: center;
-
-    }
-    .suggestion-item {
-        transition: background-color 0.4s cubic-bezier(.27,1.27,.48,.56);
-    }
-    .suggestion-item-active {
-        background-color: #cce7ff;
-        font-weight: bold;
-        margin: 0px -16px 0px -15px;
-    }
-    `;
-
 ReactDOM.render(
     <App />,
     document.querySelector('my-app')
 );
-

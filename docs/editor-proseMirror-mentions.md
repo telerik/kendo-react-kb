@@ -32,4 +32,5 @@ You can use the [`proseMirror-mentions`](https://github.com/joelewis/prosemirror
 
 {% meta id:index height:330 %}
 {% embed_file editor/prose-mirror-mentions/main.jsx preview %}
+{% embed_file editor/prose-mirror-mentions/style.css preview %}
 {% endmeta %}
