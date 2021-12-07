@@ -41,4 +41,5 @@ This is an example showcasing this in action:
 
 {% meta id:index height:760 %}
 {% embed_file multiselect/multiselect-select-all-checkbox/main.jsx preview %}
+{% embed_file shared/countries.js %}
 {% endmeta %}
