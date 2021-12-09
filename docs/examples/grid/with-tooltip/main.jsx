@@ -27,7 +27,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Tooltip openDelay={100} position="right" anchorElement="element">
+                <Tooltip openDelay={100} position="right" anchorElement="target">
                     <Grid
                         style={{ height: '400px' }}
                         data={products}
