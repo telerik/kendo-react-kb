@@ -5,6 +5,7 @@ type: how-to
 page_title: How to restrict the number of selected items in KendoReact MultiSelect
 slug: multiselect-select-all-checkbox
 tags: multiselect, kendoreact, selection
+ticketid: 1547156
 res_type: kb
 category: knowledge-base
 ---
