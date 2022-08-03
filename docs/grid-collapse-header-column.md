@@ -38,4 +38,5 @@ This can be achieved by toggling a flag variable in the state that will determin
 
 {% meta id height:760 %}
 {% embed_file grid/collapse-header-column/main.jsx preview %}
+{% embed_file grid/collapse-header-column/products.json %}
 {% endmeta %}
