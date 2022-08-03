@@ -30,6 +30,8 @@ category: knowledge-base
 
 How can I collapse the columns inside the Grid header?
 
+![Grid Collapse Header Columns](examples/grid/collapse-header-column/grid-collapse-header-columns.gif)
+
 ## Solution
 
 This can be achieved by toggling a flag variable in the state that will determine whether or not the nested columns will render.
