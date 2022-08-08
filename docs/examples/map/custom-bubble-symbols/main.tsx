@@ -73,7 +73,7 @@ const App = () => {
             </MapLayers>
         </Map>
     );
-);
+};
 
 ReactDOM.render(
     <App />,
