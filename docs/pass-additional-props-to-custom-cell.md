@@ -2,7 +2,7 @@
 title: Pass Additional Props to Custom Grid Cells
 description: An example on how to pass additional props to a custom cell in the KendoReact Grid.
 type: how-to
-page_title: Pass Additional Props to Custom Cells | KendoReact Grid
+page_title: Pass Additional Props to Custom Cells - KendoReact Grid
 slug: pass-additional-props-to-custom-cell
 tags: kendoreact, grid, cell, props
 ticketid: 1411991

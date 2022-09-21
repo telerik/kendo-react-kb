@@ -1,8 +1,8 @@
 ---
-title: Set Multiple X-axes For a Chart
-description: An example on how to set multiple x-axes for a chart.
+title: Set Multiple X-Axes for a Chart
+description: An example on how to set multiple x-axes for a KendoReact Chart.
 type: how-to
-page_title: Set Multiple X-axes For a Chart | KendoReact Chart
+page_title: Set Multiple X-Axes for a Chart - KendoReact Chart
 slug: chart-set-multiple-x-axes
 tags: chat, axes, multiple axes, x-axis
 ticketid: 1559361

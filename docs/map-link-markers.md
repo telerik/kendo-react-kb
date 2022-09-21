@@ -1,8 +1,8 @@
 ---
 title: Link Map Markers to Locations
-description: "Learn how to draw location pointers for markers in the KendoReact Map"
+description: "Learn how to draw location pointers for markers in the KendoReact Map."
 type: how-to
-page_title: Link Map Markers to Locations | KendoReact Map
+page_title: Link Map Markers to Locations - KendoReact Map
 slug: map_link_markers
 tags: telerik, kendoreact, map, markers, draw, link, line
 category: knowledge-base

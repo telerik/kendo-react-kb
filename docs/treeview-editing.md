@@ -2,7 +2,7 @@
 title: Edit the TreeView Nodes
 description: An example on how to edit the nodes of the KendoReact TreeView.
 type: how-to
-page_title: Edit the Nodes | KendoReact TreeView
+page_title: Edit the Nodes - KendoReact TreeView
 slug: treeview-editing
 tags: treeview, kendoreact, edit, nodes
 ticketid: 1408165

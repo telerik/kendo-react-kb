@@ -1,8 +1,8 @@
 ---
-title: Limit Value In a Numeric filter
-description: An example on how to limit the value in a numeric filter.
+title: Limit Value in a Numeric Filter
+description: An example on how to limit the value in the numeric filter of the KendoReact NumericTextBox.
 type: how-to
-page_title: Limit value in a numeric filter | KendoReact NumericTextBox
+page_title: Limit the Value in a Numeric Filter - KendoReact NumericTextBox
 slug: limit-numeric-filter-value
 tags: grid, NumericTextBox, filter, limit value
 ticketid: 1547408

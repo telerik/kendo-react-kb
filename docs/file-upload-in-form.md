@@ -1,8 +1,8 @@
 ---
-title: How to Use the KendoReact Upload Component in the KendoReact Form
+title: Use the KendoReact Upload in the KendoReact Form
 description: An example on how to use the KendoReact Upload component in the KendoReact Form.
 type: how-to
-page_title: How to Use the KendoReact Upload Component in the KendoReact Form | KendoReact Form
+page_title: Use the KendoReact Upload Component in the KendoReact Form - KendoReact Form
 slug: file-upload-in-form
 tags: form, kendoreact, upload
 ticketid: 1517340

@@ -1,8 +1,8 @@
 ---
-title: KendoReact Grid with Grouping and a Custom Cell
-description: An example on how to use the KendoReact Grid with Grouping and Custom Cell.
+title: Create a Grid with Grouping and a Custom Cell
+description: An example on how to use the KendoReact Grid with grouping and custom cells.
 type: how-to
-page_title: KendoReact Grid with Grouping and a Custom Cell | KendoReact Grid
+page_title: Create a Grid with Grouping and a Custom Cell - KendoReact Grid
 slug: kendoreact-grid-with-grouping-and-a-custom-cell
 tags: grid, rows, cell, grouping,
 ticketid: 1385369

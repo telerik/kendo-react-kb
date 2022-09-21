@@ -1,8 +1,8 @@
 ---
 title: Export Data to Excel with Custom Header and Footer
-description: An example on how to export data to Excel with custom header and footer.
+description: An example on how to export data to Excel with a custom header and footer when working with the KendoReact Grid.
 type: how-to
-page_title: Export Data to Excel with Custom Header and Footer | KendoReact Grid
+page_title: Export Data to Excel with Custom Headers and Footers - KendoReact Grid
 slug: excel-export-with-custom-header-footer
 tags: grid, kendoreact, export, excel, header, footer
 ticketid: 1463826

@@ -1,8 +1,8 @@
 ---
-title: Add Custom ColumnMenu Date Filter to TreeList
+title: Add a Custom ColumnMenu Date Filter to the TreeList
 description: An example on how to add a custom ColumnMenu date filter in the KendoReact TreeList.
 type: how-to
-page_title: Add Custom ColumnMenu Date Filter to TreeList | KendoReact TreeList
+page_title: Add a Custom ColumnMenu Date Filter to the TreeList - KendoReact TreeList
 slug: treelist-custom-date-filter
 tags: treelist, kendoreact, date, columnmenu
 ticketid: 1511556

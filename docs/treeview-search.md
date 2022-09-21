@@ -2,7 +2,7 @@
 title: Enable Search through the TreeView Data
 description: An example on how to enable the search through the data of the KendoReact TreeView.
 type: how-to
-page_title: Enable the Search through the TreeView Data | KendoReact TreeView
+page_title: Enable the Search through the TreeView Data - KendoReact TreeView
 slug: treeview-search
 tags: treeview, kendoreact, search, data
 ticketid: 1408162

@@ -1,8 +1,8 @@
 ---
 title: Close the Popup on Blur
-description: An example on how to close the Popup on blur.
+description: An example on how to close the KendoReact Popup on blur.
 type: how-to
-page_title: Close the Popup on Blur| KendoReact Popup
+page_title: Close the Popup on Blur- KendoReact Popup
 slug: popup-close-on-blur
 tags: popup, kendoreact, close, blur
 ticketid: 1402574

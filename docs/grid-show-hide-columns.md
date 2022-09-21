@@ -1,8 +1,8 @@
 ---
-title: Show/Hide Columns Dynamically in the Grid
-description: An example on how to show or hide the Columns dynamically in the KendoReact Grid.
+title: Dynamically Show/Hide Columns in the Grid
+description: An example on how to dynamically show or hide the columns in the KendoReact Grid.
 type: how-to
-page_title: Show/Hide Columns Dynamically in the Grid | KendoReact Grid
+page_title: Show/Hide Columns Dynamically in the Grid - KendoReact Grid
 slug: grid-show-hide-columns
 tags: grid, kendoreact, show, hide, columns, column
 ticketid: 1514629

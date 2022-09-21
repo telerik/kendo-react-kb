@@ -2,7 +2,7 @@
 title: Filter the Grid with Checkboxes
 description: An example on how to filter the KendoReact Grid by using checkboxes.
 type: how-to
-page_title: Filter the Grid by Using Checkboxes | KendoReact Grid
+page_title: Filter the Grid by Using Checkboxes - KendoReact Grid
 slug: filter-the-grid-with-checkboxes
 tags: kendoreact, grid, filter, checkbox
 ticketid: 1410595

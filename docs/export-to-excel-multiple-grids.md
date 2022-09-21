@@ -2,7 +2,7 @@
 title: Export Multiple Grids to Excel
 description: An example on how to export multiple KendoReact Grids to a single Excel file.
 type: how-to
-page_title: Export Multiple Grids to Excel | KendoReact Grid
+page_title: Export Multiple Grids to Excel - KendoReact Grid
 slug: export-to-excel-multiple-grids
 tags: kendoreact, export, multiple, grids, excel
 ticketid: 1408161

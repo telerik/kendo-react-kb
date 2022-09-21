@@ -1,8 +1,8 @@
 ---
 title: Render Custom Symbols for Map Bubble Layers
-description: "Learn how to render custom symbols on a Bubble layer in the KendoReact Map"
+description: "Learn how to render custom symbols on a Bubble layer in the KendoReact Map."
 type: how-to
-page_title: Render Custom Symbols for Map Bubble Layers | KendoReact Map
+page_title: Render Custom Symbols for Map Bubble Layers - KendoReact Map
 slug: map_add_shape_titles
 tags: telerik, kendoreact, map, shapes, bubble
 res_type: kb

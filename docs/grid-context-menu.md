@@ -1,8 +1,8 @@
 ---
-title: Context Menu
-description: "Get started with the KendoReact Grid and implement a context menu to its features."
+title: Implement a Context Menu in the Grid
+description: "Learn how to add a context menu to a KendoReact Grid."
 type: how-to
-page_title: Context Menu | KendoReact Grid
+page_title: Add a Context Menu - KendoReact Grid
 slug: grid-context-menu
 tags: grid, kendoreact, contextmenu
 ticketid: 1422874

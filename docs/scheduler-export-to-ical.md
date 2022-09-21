@@ -1,8 +1,8 @@
 ---
-title: Export KendoReact Scheduler to iCal
-description: An example on how to export KendoReact Scheduler to iCal.
+title: Export the Scheduler to iCal
+description: An example on how to export the KendoReact Scheduler to iCal.
 type: how-to
-page_title: Export KendoReact Scheduler to iCal | KendoReact Scheduler
+page_title: Export the Scheduler to iCal - KendoReact Scheduler
 slug: scheduler-export-to-ical
 tags: scheduler, kendoreact, ical, export
 ticketid: 1470194

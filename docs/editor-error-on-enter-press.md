@@ -1,8 +1,8 @@
 ---
 title: Editor Raises an Error on Enter Press
-description: Why the Kendoreact Editor Raises an Error on Enter Press.
+description: Learn how to troubleshoot when the Kendoreact Editor raises an error on Enter press.
 type: how-to
-page_title: Editor Raises an Error on Enter Press | KendoReact Editor
+page_title: Editor Raises an Error on Enter Press - KendoReact Editor
 slug: editor-error-on-enter-press
 tags: editor, kendoreact, error, enter
 ticketid: 9999999

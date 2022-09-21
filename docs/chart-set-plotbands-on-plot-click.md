@@ -1,8 +1,8 @@
 ---
-title: How to Set PlotBands on Plot Area Click of a Chart
+title: Set PlotBands on a Plot-Area Click of a Chart
 description: An example of how to set PlotBands when clicking on the Plot Area of a KendoReact Chart.
 type: how-to
-page_title: How to Set PlotBands on Plot Area Click of a Chart | KendoReact Charts
+page_title: Set PlotBands on Plot-Area Clicks of a Chart - KendoReact Charts
 slug: chart-set-plotbands-on-plot-click
 tags: grid, kendoreact, plotbands, charts, chart, plotarea, click
 ticketid: 1521237

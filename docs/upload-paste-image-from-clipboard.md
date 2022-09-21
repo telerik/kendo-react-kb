@@ -1,8 +1,8 @@
 ---
-title: Paste Image From Clipboard
-description: An example on how to paste image for upload from clipboard.
+title: Paste an Image for Upload from the Clipboard 
+description: An example on how to paste an image for upload from clipboard when working with the KendoReact Upload.
 type: how-to
-page_title: Paste Image From Clipboard | KendoReact Upload
+page_title: Paste Images for Upload from the Clipboard - KendoReact Upload
 slug: upload-paste-image-from-clipboard
 tags: upload, kendoreact, paste, image, clipboard
 ticketid: 1468266

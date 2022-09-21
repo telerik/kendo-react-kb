@@ -2,7 +2,7 @@
 title: Set Custom Colors in Chart Series
 description: An example on how to set custom colors in the KendoReact Chart series.
 type: how-to
-page_title: Set Custom Colors in Chart Series | KendoReact Chart
+page_title: Set Custom Colors in Chart Series - KendoReact Chart
 slug: custom-colors-in-chart-series
 tags: chart, kendoreact, dates, format
 ticketid: 1410298

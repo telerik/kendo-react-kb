@@ -1,8 +1,8 @@
 ---
-title: Hide KendoReact Notifications After a Timeout
-description: An example on how to hide the KendoReact Notification after a timeout
+title: Hide KendoReact Notifications after a Timeout
+description: An example on how to hide the KendoReact Notification after a timeout.
 type: how-to
-page_title: Hide KendoReact Notifications After a Timeout | KendoReact Notification
+page_title: Hide KendoReact Notifications after a Timeout - KendoReact Notification
 slug: hide-kendoreact-notification-after-a-timeout
 position:
 tags: notification

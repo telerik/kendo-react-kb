@@ -1,8 +1,8 @@
 ---
-title: Show Loading Indicator in the KendoReact Grid
-description: An example on how to show a loading indicator in the Grid
+title: Show a Loading Indicator in the KendoReact Grid
+description: An example on how to show a loading indicator in the KendoReact Grid.
 type: how-to
-page_title: Show Loading Indicator in the KendoReact Grid | KendoReact Grid
+page_title: Show a Loading Indicator in the Grid - KendoReact Grid
 slug: show-loading-indicator-in-the-kendoreact-grid
 position:
 tags: grid

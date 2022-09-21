@@ -1,8 +1,8 @@
 ---
-title: Integrate ProseMirror Mentions plugin inside the Editor
+title: Integrate ProseMirror Mentions Plugin inside the Editor
 description: An example on how to use the ProseMirror Mentions plugin inside the KendoReact Editor.
 type: how-to
-page_title: Integrate ProseMirror Mentions plugin inside the Editor | KendoReact Editor
+page_title: Integrate ProseMirror Mentions Plugin inside the Editor - KendoReact Editor
 slug: editor-prosemirror-mentions
 tags: editor, kendoreact, plugin, prosemirror, mention, hashtag
 ticketid: 

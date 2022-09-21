@@ -1,8 +1,8 @@
 ---
-title: How to Drag and Drop an Item Between Two KendoReact TreeList Components
-description: An example on how to drag and drop item between two KendoReact TreeList components.
+title: Drag and Drop an Item between Two KendoReact TreeLists
+description: An example on how to drag and drop an item between two KendoReact TreeList components.
 type: how-to
-page_title: Change the Date Format | KendoReact Grid
+page_title: Drag and Drop Items between TreeLists - KendoReact TreeList
 slug: treelist-drag-and-drop
 tags: treelist, kendoreact, drag, drop
 ticketid: 1520227

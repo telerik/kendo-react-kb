@@ -1,8 +1,8 @@
 ---
-title: Add Custom Tools to the Editor and Customize Built-in Tools.
-description: Examples on how to add a custom tool to the Editor and customize built-in ones.
+title: Add Custom Tools to the Editor and Customize Built-in Tools
+description: Examples on how to add a custom tool to the KendoReact Editor and customize built-in ones.
 type: how-to
-page_title: Add Custom Tools to the Editor and Customize Built-in Tools | KendoReact Editor
+page_title: Add Custom Tools to the Editor and Customize Built-in Tools - KendoReact Editor
 slug: add-custom-tools-to-the-editor-and-customize-built-in-tools
 position:
 tags: editor, tools, custom tools, customization tools

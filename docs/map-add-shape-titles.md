@@ -2,7 +2,7 @@
 title: Add Titles to Map Shapes
 description: Learn how to add titles to shapes in the KendoReact Map.
 type: how-to
-page_title: Add Titles to Map Shapes | KendoReact Map
+page_title: Add Titles to Map Shapes - KendoReact Map
 slug: map_add_shape_titles
 tags: telerik, kendoreact, map, shapes, draw, title
 res_type: kb

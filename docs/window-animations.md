@@ -1,8 +1,8 @@
 ---
 title: Animate the Window
-description: An example on how to Animate the Window.
+description: An example on how to Animate the KendoReact Window.
 type: how-to
-page_title: Animate the Window | KendoReact TreeView
+page_title: Animate the Window - KendoReact TreeView
 slug: animate-window
 tags: window, kendoreact, animation
 ticketid: 1408162
