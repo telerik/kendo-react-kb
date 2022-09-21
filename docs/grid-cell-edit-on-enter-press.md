@@ -1,8 +1,8 @@
 ---
-title: Enter Edit Mode in Grid Cell by Pressing Enter
-description: An example on how to edit a grid cell by pressing enter.
+title: Enter the Edit Mode in a Grid Cell by Pressing Enter
+description: An example on how to edit a KendoReact Grid cell by pressing the Enter key.
 type: how-to
-page_title: Enter Edit Mode in Grid Cell by Pressing Enter| KendoReact Grid
+page_title: Enter the Edit Mode in a Grid Cell by Pressing Enter - KendoReact Grid
 slug: grid-cell-edit-on-enter-press
 tags: grid, edit, cell
 ticketid: 1558287

@@ -1,8 +1,8 @@
 ---
-title: Configuring Stateful Grids
-description: "Get started with the stateful KendoReact Grid allowing you to perform paging, sorting, filtering, grouping, and editing, and to reuse it across apps."
+title: Configure Stateful Grids
+description: "Learn how to configure a stateful KendoReact Grid allowing you to perform paging, sorting, filtering, grouping, and editing, and to reuse it across apps."
 type: how-to
-page_title: Configuring Stateful Grids | KendoReact Grid
+page_title: Configure Stateful Grids - KendoReact Grid
 slug: grid-stateful
 tags: grid, kendoreact, stateful
 ticketid: 1403874

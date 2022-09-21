@@ -1,8 +1,8 @@
 ---
-title: How to Add New Columns to the Grid
-description: An example of how to add new Columns to the KendoReact Grid.
+title: Add New Columns to the Grid
+description: An example of how to add new columns to the KendoReact Grid.
 type: how-to
-page_title: How to Add New Columns to the Grid | KendoReact Grid
+page_title: Add New Columns to the Grid - KendoReact Grid
 slug: grid-add-new-column
 tags: grid, kendoreact, column, columns, add, new
 ticketid: 1516858

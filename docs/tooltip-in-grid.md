@@ -2,7 +2,7 @@
 title: Render Tooltips for Grid Cells
 description: An example on how to set a KendoReact Tooltip inside the KendoReact Grid.
 type: how-to
-page_title: Render Tooltips for Grid Cells | KendoReact Tooltip
+page_title: Render Tooltips for Grid Cells - KendoReact Tooltip
 slug: grid_tooltip_howto
 tags: tooltip, render, grid, cells
 res_type: kb

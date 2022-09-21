@@ -1,8 +1,8 @@
 ---
 title: Close the Popup by Clicking Outside
-description: An example on how to close the Popup by clicking outside.
+description: An example on how to close the KendoReact Popup by clicking outside.
 type: how-to
-page_title: Close the Popup by Clicking Outside | KendoReact Popup
+page_title: Close the Popup by Clicking Outside - KendoReact Popup
 slug: popup-close-on-click-outside
 tags: popup, close, outside
 ticketid: 1559361

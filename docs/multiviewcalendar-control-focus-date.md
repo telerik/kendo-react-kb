@@ -1,8 +1,8 @@
 ---
-title: MultiViewCalendar Control the Focus Date
+title: Control the Focus MultiViewCalendar Date
 description: An example on how to control the focus date in the KendoReact MultiViewCalendar.
 type: how-to
-page_title: MultiViewCalendar Control the Focus Date | KendoReact MultiViewCalendar
+page_title: Control the Focus MultiViewCalendar Date - KendoReact MultiViewCalendar
 slug: multiviewcalendar-control-focus-date
 tags: multiviewcalendar, kendoreact, focus, date
 ticketid: 754

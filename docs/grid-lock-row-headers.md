@@ -1,8 +1,8 @@
 ---
 title: Dynamically Lock Row Section Headers
-description: An example on how to dynamically lock row based on data group in the KendoReact Grid.
+description: An example on how to dynamically lock row based on a data group in the KendoReact Grid.
 type: how-to
-page_title: Dynamically Lock Row Section Headers | KendoReact Grid
+page_title: Dynamically Lock Row Section Headers - KendoReact Grid
 slug: grid-lock-row-headers
 tags: grid, kendoreact, dates, format
 ticketid:

@@ -1,8 +1,8 @@
 ---
-title: Drag and Drop Between Grids
+title: Drag and Drop Rows between Grids
 description: An example on how to drag and drop rows between two KendoReact Grids.
 type: how-to
-page_title: Drag and Drop Between Grids | KendoReact Grid
+page_title: Drag and Drop Rows between Grids - KendoReact Grid
 slug: drag-and-drop-between-grids
 tags: grid, rows, merge
 ticketid: 1454285

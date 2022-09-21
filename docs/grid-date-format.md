@@ -2,7 +2,7 @@
 title: Modify the Date Format in the Grid
 description: An example on how to format ISO string dates in the KendoReact Grid.
 type: how-to
-page_title: Change the Date Format | KendoReact Grid
+page_title: Change the Date Format - KendoReact Grid
 slug: grid-date-format
 tags: grid, kendoreact, dates, format
 ticketid: 1402874

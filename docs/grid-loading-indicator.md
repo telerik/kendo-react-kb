@@ -1,8 +1,8 @@
 ---
-title: Rendering Loading Indicator
-description: "Get started with the KendoReact Grid and implement a loading indicator panel for showing the loading state."
+title: Render a Loading Indicator
+description: "Learn how to implement a loading indicator panel for showing the loading state of the KendoReact Grid."
 type: how-to
-page_title: Rendering Loading Indicator | KendoReact Grid
+page_title: Render a Loading Indicator - KendoReact Grid
 slug: grid-loading-indicator
 tags: grid, kendoreact, loading
 ticketid: 1402875

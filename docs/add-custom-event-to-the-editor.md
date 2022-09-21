@@ -1,8 +1,8 @@
 ---
-title: Add Custom Event to the Editor
-description: An example on how to add a custom event to the Editor.
+title: Add Custom Events to the Editor
+description: An example on how to add a custom event to the KendoReact Editor.
 type: how-to
-page_title: Add Custom Event to the Editor | KendoReact Editor
+page_title: Add Custom Events to the Editor - KendoReact Editor
 slug: add-custom-event-to-the-editor
 position:
 tags: editor, event

@@ -1,8 +1,8 @@
 ---
-title: Example of Excel Export of Both Parent and Child Grid Data
-description: How to export to Excel both parent and child Grids
+title: Export to Excel Both Parent and Child Grid Data
+description: An example on how to export to Excel both parent and child KendoReact Grids.
 type: how-to
-page_title: Excel Export of Both Parent and Child Grid Data | KendoReact Grid
+page_title: Excel Export of Both Parent and Child Grid Data - KendoReact Grid
 slug: excel-export-of-both-parent-and-child-grid-data
 position:
 tags: grid, export, excel

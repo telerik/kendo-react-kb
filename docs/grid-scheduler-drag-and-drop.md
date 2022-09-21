@@ -2,7 +2,7 @@
 title: Drag and Drop Items From the KendoReact Grid to the KendoReact Scheduler
 description: An example on how to drag and drop items from the KendoReact Grid to the KendoReact Scheduler.
 type: how-to
-page_title: Drag and Drop Items From the KendoReact Grid to the KendoReact Scheduler | KendoReact Grid KendoReact Scheduler
+page_title: Drag and Drop Items From the KendoReact Grid to the KendoReact Scheduler - KendoReact Grid KendoReact Scheduler
 slug: grid-scheduler-drag-and-drop
 tags: grid, kendoreact, scheduler, drag, drop
 ticketid: 1478702

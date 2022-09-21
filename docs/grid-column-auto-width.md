@@ -2,7 +2,7 @@
 title: Set the Width of the Column Based on the Content
 description: An example on how to set the width of the KendoReact Grid column based on the content.
 type: how-to
-page_title: Set the Width of the Column Based on the Content | KendoReact Grid
+page_title: Set the Width of the Column Based on the Content - KendoReact Grid
 slug: grid-column-auto-width
 tags: grid, kendoreact, width, column, auto
 ticketid: 1469294

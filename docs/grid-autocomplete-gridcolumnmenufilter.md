@@ -2,7 +2,7 @@
 title: Use AutoComplete in the ColumnMenuFilter of the Grid
 description: An example on how to use the AutoComplete component in the ColumnMenuFilter of KendoReact Grid.
 type: how-to
-page_title: Use AutoComplete in the ColumnMenuFilter of the Grid | KendoReact Grid
+page_title: Use AutoComplete in the ColumnMenuFilter of the Grid - KendoReact Grid
 slug: grid-autocomplete-gridcolumnmenufilter
 tags: grid, kendoreact, filter, columnmenu, autocomplete, columnmenufilter
 ticketid: 1516740

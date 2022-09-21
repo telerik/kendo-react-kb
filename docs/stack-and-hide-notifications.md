@@ -1,8 +1,8 @@
 ---
-title: Stack KendoReact Notifications of the Same Type and Hide Them After a Timeout
-description: An example on how to stack KendoReact Notifications of the same type and hide them after a timeout
+title: Stack Same-Type KendoReact Notifications and Hide Them after a Timeout
+description: An example on how to stack KendoReact Notifications of the same type and hide them after a timeout.
 type: how-to
-page_title: Stack KendoReact Notifications of the Same Type and Hide Them After a Timeout | KendoReact Notification
+page_title: Stack KendoReact Notifications of the Same Type and Hide Them after a Timeout - KendoReact Notification
 slug: stack-and-hide-notifications
 position:
 tags: notification, stack, timeout, hide, grid

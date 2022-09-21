@@ -2,7 +2,7 @@
 title: Implement Custom Expand/Collapse Columns
 description: An example on how to create a custom expand/collapse column in the KendoReact Grid.
 type: how-to
-page_title: Change or Hide Columns by Implementing an Expand/Collapse Column | KendoReact Grid
+page_title: Change or Hide Columns by Implementing an Expand/Collapse Column - KendoReact Grid
 slug: howto_custom_expand_collapse_column
 tags: expand, collapse, column, kendoreact, grid
 ticketid: 1410508

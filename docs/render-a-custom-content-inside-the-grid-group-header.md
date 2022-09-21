@@ -2,7 +2,7 @@
 title: Render Custom Content inside the Grid Group Header
 description: An example on how to render custom content inside the group header of the KendoReact Grid.
 type: how-to
-page_title: Render Custom Content in the Group Header | KendoReact Grid
+page_title: Render Custom Content in the Group Header - KendoReact Grid
 slug: render-a-custom-content-inside-the-grid-group-header
 tags: grid, groupheader, cell, render
 ticketid: 1410259

@@ -1,8 +1,8 @@
 ---
 title: Make the Pager Stick to the Bottom of the TreeList
-description: An example on how to make the pager always visible and appear the bottom of the KendoReact TreeList.
+description: An example on how to make the pager always visible and appear at the bottom of the KendoReact TreeList.
 type: how-to
-page_title: Make the Pager Stick to the Bottom of the TreeList  | KendoReact TreeList
+page_title: Make the Pager Stick to the Bottom of the TreeList  - KendoReact TreeList
 slug: treelist-pager-at-bottom
 tags: treelist, kendoreact, pager, bottom, stick
 ticketid: 1510981

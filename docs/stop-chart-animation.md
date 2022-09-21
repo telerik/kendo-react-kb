@@ -2,7 +2,7 @@
 title: Disable Chart Animations
 description: An example on how to disable the animations of the KendoReact Chart.
 type: how-to
-page_title: Prevent Chart Animations | KendoReact Chart
+page_title: Prevent Chart Animations - KendoReact Chart
 slug: stop-chart-animation
 tags: kendoreact, chart, animation
 ticketid: 1410594

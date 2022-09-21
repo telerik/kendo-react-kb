@@ -2,7 +2,7 @@
 title: Merge Rows in the Grid
 description: An example on how to merge rows in the KendoReact Grid.
 type: how-to
-page_title: Merge Rows in the Grid | KendoReact Grid
+page_title: Merge Rows in the Grid - KendoReact Grid
 slug: merge-row-in-the-grid
 tags: grid, rows, merge
 ticketid: 1414492

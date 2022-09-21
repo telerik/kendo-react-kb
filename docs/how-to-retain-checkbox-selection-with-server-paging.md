@@ -2,7 +2,7 @@
 title: Retain Checkbox Selection with Server Paging
 description: An example on how to retain checkbox selection in the KendoReact Grid with server paging.  
 type: how-to
-page_title: Retain Checkbox Selection with Server Paging | KendoReact Grid
+page_title: Retain Checkbox Selection with Server Paging - KendoReact Grid
 slug:  how-to-retain-checkbox-selection-with-server-paging
 tags: grid, checkbox, selection, sever-paging
 ticketid: 1413958

@@ -1,8 +1,8 @@
 ---
-title: How to Make Date Range Filter in the KendoReact Grid
-description: An example on how to make date range filter in the KendoReact Grid.
+title: Create a Date-Range Filter in the Grid
+description: An example on how to create a date-range filter in the KendoReact Grid.
 type: how-to
-page_title: How to Make Date Range Filter in the KendoReact Grid | KendoReact Grid
+page_title: Make a Date-Range Filter in the KendoReact Grid - KendoReact Grid
 slug: grid-date-range-filter
 tags: grid, kendoreact, dates, filter
 ticketid: 1402875

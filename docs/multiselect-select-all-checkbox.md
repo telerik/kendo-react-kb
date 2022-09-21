@@ -1,8 +1,8 @@
 ---
-title: How to Add a Select All Checkbox in KendoReact MultiSelect
-description: An example on how to add a select all checkbox in KendoReact MultiSelect.
+title: Add a Select All Checkbox in KendoReact MultiSelect
+description: An example on how to add a Select All checkbox in the KendoReact MultiSelect.
 type: how-to
-page_title: How to а Add Select All Checkbox in KendoReact MultiSelect | KendoReact MultiSelect
+page_title: Add a Select All Checkbox in the MultiSelect - KendoReact MultiSelect
 slug: multiselect-select-all-checkbox
 tags: multiselect, kendoreact, dropdownlist, dropdowns, checkbox, select, all
 res_type: kb

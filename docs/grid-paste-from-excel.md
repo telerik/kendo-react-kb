@@ -2,7 +2,7 @@
 title: Paste Data From Excel
 description: An example on how to paste data from Excel in the KendoReact Grid.
 type: how-to
-page_title: Paste Data From Excel | KendoReact Grid
+page_title: Paste Data From Excel - KendoReact Grid
 slug: grid-paste-from-excel
 tags: grid, kendoreact, excel, paste
 ticketid: 1481168

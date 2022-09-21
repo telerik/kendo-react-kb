@@ -1,8 +1,8 @@
 ---
-title: How to Have Paging, Sorting and Filtering Functionality of a Grid with Form Editing Features
-description: An example of how to have pagination, sorting and filtering functionality of a KendoReact Grid with form editing features.
+title: Add Paging, Sorting, and Filtering to a Grid with Form-Editing Features
+description: An example of how to have the pagination, sorting, and filtering functionalities of a KendoReact Grid with form-editing features.
 type: how-to
-page_title: How to Have Paging, Sorting and Filtering Functionality of a Grid with Form Editing Features| KendoReact Grid
+page_title: Have Paging, Sorting, and Filtering Functionalities in a Grid with Form-Editing Features - KendoReact Grid
 slug: grid-multiple-functionalities
 tags: grid, kendoreact, paging, sorting, filtering, page, sort, filter, form, edit
 ticketid: 1512657
