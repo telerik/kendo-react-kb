@@ -32,13 +32,13 @@ How can I add a custom header and footer to the exported data to Excel?
 
 ## Solution
 
-This can be done by customizing the [Workbook](https://www.telerik.com/kendo-react-ui/components/excelexport/api/Workbook/) that will be exported. In this case, we have to add new rows to the current rows collection.
+This can be done by customizing the [Workbook](https://www.telerik.com/kendo-react-ui/components/excelexport/customization/) that will be exported. In this case, we have to add new rows to the current rows collection.
 
 The following example shows how to:
 
 1. Add a new row at the beginning and at the end of the workbook.
-2. Apply [additional settings](https://www.telerik.com/kendo-react-ui/components/excelexport/api/WorkbookSheetRowCell/) to the cells.
-3. [Freeze](https://www.telerik.com/kendo-react-ui/components/excelexport/api/WorkbookSheet/#toc-frozenrows) the first two rows in order to have the header and the column titles to be visible when scrolling.
+2. Apply [additional settings](https://www.telerik.com/kendo-react-ui/components/excelexport/api/KendoOoxml/) to the cells.
+3. Freeze the first two rows in order to have the header and the column titles to be visible when scrolling.
 
 {% meta id:index height:760 %}
 {% embed_file grid/excel-export-header-footer/main.jsx preview %}
