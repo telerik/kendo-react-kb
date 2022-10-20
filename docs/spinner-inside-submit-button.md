@@ -1,5 +1,5 @@
 ---
-title: Add a Spinner Inside The Form Submit Button on Submit
+title: Add a Spinner Inside The Form Submit Button
 description: An example on how to visualise a spinner inside the form submit button after the form is submitted
 type: how-to
 page_title: Add a Spinner Inside The Form Submit Button on Submit - KendoReact Grid
@@ -31,7 +31,7 @@ I want to visualise a spinner icon once the form has been submitted.
 ## Solution
 This can be achieved by using the iconClass props and conditionally changing the className to that of a spinner or loader based on the disabled variable.
 
-This is an example showcasing this approach:
+![Spinner Inside Submit Button](examples/form/spinner-inside-submit-button/spinner-inside-submit-button.gif)
 
 {% meta id:index height:760 %}
 {% embed_file form/spinner-inside-submit-button/main.jsx preview %}
