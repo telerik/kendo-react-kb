@@ -29,7 +29,7 @@ category: knowledge-base
 I want to maintain the column orders when I export the Grid to Excel, how can I achieve this?
 
 ## Solution
-This requires to set the columns inside the ExcelExport, then sort and update the gridColumns inside the onColumnReorder event.
+This requires setting the columns inside the ExcelExport, then sorting and updating the gridColumns inside the onColumnReorder event.
 
 This is an example showcasing this approach:
 
