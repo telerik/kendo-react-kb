@@ -32,10 +32,10 @@ When I press Enter in the KendoReact Editor this errors occurs `"RangeError: Can
 
 ## Solution
 
-Currently, it happens on the KendoReact website. If you open an example in StackBlitz, download it and run it locally, you will see that it works as expected. The error happens when different versions of [ProseMirror packages]() are loaded.
+Currently, it happens with the KendoReact Editor examples when opened in the StackBlitz and CodeSandBox websites. If you open an example in StackBlitz, download it and run it locally, you will see that it works as expected. It also works as expected in the [KendoReact website](https://www.telerik.com/kendo-react-ui/components/editor/paste/). The error happens when different versions of [ProseMirror](https://prosemirror.net/) packages are loaded.
 
-To prevent this error in your app, use the ProseMirror packages from the `@progress/kendo-editor-common` package and install the same version as it is pointed in the editor's `package.json` file.
-For example, for version 4.4.0., you should install version 1.1.5. of '@progress/kendo-editor-common'.
-If you don't need to use the ProseMirror packages to customize or extend the editor's functionality, you will not get such an error.
+To prevent this error in your app, use the ProseMirror packages from the `@progress/kendo-editor-common` [package](https://unpkg.com/browse/@progress/kendo-editor-common@1.1.6/package.json) and install the same version as it is pointed in the editor's [package.json](https://unpkg.com/browse/@progress/kendo-react-editor@4.4.0/package.json) file.
+For example, for version 4.4.0 of `@progress/kendo-react-editor`, you should install version 1.1.5. of `@progress/kendo-editor-common`.
+If you do not need to use the ProseMirror packages to customize or extend the editor's functionality, you will not get such an error.
 
-If you use yarn, define all the ProseMirror packages versions in the [resolutions](https://classic.yarnpkg.com/en/docs/selective-version-resolutions/) section in package.json file.
+If you use yarn, define all the ProseMirror packages versions in the [resolutions](https://classic.yarnpkg.com/en/docs/selective-version-resolutions/) section in package.json file. Here is a runnable example where this is implemented: [https://github.com/telerik/kendo-react/files/6502790/editor-yarn.zip](https://github.com/telerik/kendo-react/files/6502790/editor-yarn.zip)
