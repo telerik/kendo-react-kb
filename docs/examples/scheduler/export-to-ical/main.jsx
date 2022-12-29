@@ -14,7 +14,7 @@ import { ZonedDate } from "@progress/kendo-date-math";
 import "@progress/kendo-date-math/tz/America/New_York";
 import "@progress/kendo-date-math/tz/America/Los_Angeles";
 
-import { formatDate } from "@telerik/kendo-intl";
+import { formatDate } from "@progress/kendo-intl";
 
 import { saveAs } from "@progress/kendo-file-saver";
 

@@ -82,13 +82,13 @@ window.moduleDirectives = (window.moduleDirectives || []).concat(
             main: 'dist/cdn/main.js',
         },
         {
-            module: '@telerik/kendo-intl',
+            module: '@progress/kendo-intl',
             main: 'dist/cdn/main.js',
         },
         {
             module: 'ical.js',
             main: 'build/ical.js',
         }
-        
+
     ]
 );
