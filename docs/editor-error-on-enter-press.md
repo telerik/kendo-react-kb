@@ -38,7 +38,7 @@ If you open an example in StackBlitz, download it and run it locally, you will s
 
 To prevent this error in your app:
 
-- If you use yarn, define all the ProseMirror packages versions in the [resolutions](https://classic.yarnpkg.com/en/docs/selective-version-resolutions/) section in package.json file. Here is a runnable example where this is implemented: [https://github.com/telerik/kendo-react/files/6502790/editor-yarn.zip](https://github.com/telerik/kendo-react/files/6502790/editor-yarn.zip).
-- If you have customizations and you have installed additionally the `@progress/kendo-editor-common` package, make sure that the installed version is the same as the version listed in the editor's dependencies.
+- If you use yarn, define all the ProseMirror packages versions in the [resolutions](https://classic.yarnpkg.com/en/docs/selective-version-resolutions/) section in your app's package.json file. The correct ProseMirror packages versions are listed in the package.json file of the `@progress/kendo-editor-common` package which a dependency of the editor and located in the editor's node_modules folder (`node_modules\@progress\kendo-editor-common\package.json`).
+- If you have customizations and you have installed additionally the `@progress/kendo-editor-common` package, make sure that the installed version is the same as the version listed in the editor's dependencies (`node_modules\@progress\kendo-react-editor\package.json`).
 
 If you do not need to use the ProseMirror packages to customize or extend the editor's functionality and do not use yarn, you will not get such an error.
