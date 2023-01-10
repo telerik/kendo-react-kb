@@ -42,3 +42,12 @@ This will required the following setup:
 {% embed_file scheduler/dnd-from-grid/main.jsx preview %}
 {% embed_file shared/data.js %}
 {% endmeta %}
+
+## Enabling the drag and drop on mobile devices
+
+The native Drag & Drop API does not support touch events by default. It is possible to enable the drag and drop functionality on mobile devices by using a polyfill:
+
+{% meta id:index height:900 %}
+{% embed_file scheduler/dnd-from-grid-mobile/main.jsx preview %}
+{% embed_file shared/data.js %}
+{% endmeta %}
