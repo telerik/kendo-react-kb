@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Grid, GridColumn as Column } from '@progress/kendo-react-grid';
-
+import './styles.css'
 import products from './products.json';
 
 const updateItem = (item) => {
@@ -94,7 +94,7 @@ class App extends React.Component {
           <td
             {...cell.props}
             rowSpan={dataItem.discontinuedCellRowSpan}
-            class={dataItem.className || dataItem.discontinuedClassName}
+            className={dataItem.className || dataItem.discontinuedClassName}
             onMouseOver={() => {
               this.handleMergedHover(
                 dataItem,

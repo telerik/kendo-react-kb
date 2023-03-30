@@ -1,0 +1,4 @@
+.k-grid .k-table-tbody > .k-table-row:not(.k-detail-row) > td.k-hover {
+    background-color: #ededed;
+  }
+  

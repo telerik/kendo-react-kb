@@ -36,5 +36,6 @@ Use a [`cellRender`]({% slug api_grid_gridprops %}#toc-cellrender) and add `rowS
 
 {% meta id:index height:760 %}
 {% embed_file grid/merge-rows/main.jsx preview %}
+{% embed_file grid/merge-rows/styles.css %}
 {% embed_file shared/products.json %}
 {% endmeta %}
