@@ -2,6 +2,9 @@
 <img width="631" src="https://www.telerik.com/kendo-react-ui/npm-banner.svg">
 </a>
 
+> **Warning**
+> The kb articles repo has moved here https://github.com/telerik/kendo-react/tree/master/knowledge-base
+
 ## Native UI and Data Visualization Components for React
 
 This repository provides a collection of knowledge base articles for KendoReact and is part of the Progress [KendoReact](https://www.telerik.com/kendo-react-ui/?utm_medium=referral&utm_source=npm&utm_campaign=kendo-ui-react-trial-npm-native) suite.
